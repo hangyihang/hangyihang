@@ -1,0 +1,12 @@
+ListView.builder(
+itemCount: 100,
+itemBuilder: (context, index) {
+     
+     
+ return KeepAlive(
+   child: ListTile(
+     title: Text('Item $index'),
+   ),
+ );
+},
+);
