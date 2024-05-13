@@ -1,0 +1,4 @@
+if orderResp.UserId != common.GetUserID(ctx) {
+  logs.CtxError(ctx, "No permission to get order, OrderID:%v, UserID:%v", req.OrderId, common.GetUserID(ctx))
+  return nil, common.NewError(common.RespError, "No permission to get order")
+}
