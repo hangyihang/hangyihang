@@ -1,0 +1,6 @@
+   if orderResp == nil {
+      logs.CtxError(ctx, "Order is nil")
+      return nil, common.NewError(common.RespError, "Order is nil")
+   }
+   return orderResp, nil
+}``
