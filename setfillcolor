@@ -1,0 +1,15 @@
+int main()
+{
+	//create a window
+	initgraph(WINDOW_WIDTH, WINDOW_HEIGHT);
+ 
+	setfillcolor(0xFF9999);
+ 
+	GameBackInit();
+ 
+	char key;
+	CreateList();
+	BeginBatchDraw();
+	while (1)
+	{	
+		
