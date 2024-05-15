@@ -1,0 +1,17 @@
+	if(boss1image<=boss1h )	boss1image+=2;
+ 
+}
+ 
+void AddNode(int flag)
+{
+	if (flag == 0)
+	{
+		NODE* p_new = (NODE*)malloc(sizeof(NODE));
+ 
+		p_new->x = p_MP->x + 35;
+		p_new->y = p_MP->y - 45;
+ 
+		p_new->pnext = p_bullet->pnext;
+		p_bullet->pnext = p_new;
+	}
+}
