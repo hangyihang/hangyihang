@@ -1,0 +1,13 @@
+                int a=0; 
+                scanf("%d",&a);
+                if(a==1)
+                 {
+                   system("cls");
+                   if(h->next==NULL)
+                    {iregister(h);dengru(h,num);}
+                    else dengru(h,num);menu1(h,num);
+                 }    
+            }break;
+        case 6:
+            {
+                system("cls");log_in(h);
