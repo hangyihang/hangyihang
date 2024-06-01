@@ -1,0 +1,8 @@
+     switch(n)
+     {
+         case 1:
+             {
+                 system("cls"); 
+             }break;
+        case 2:
+            {
