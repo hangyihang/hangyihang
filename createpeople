@@ -1,0 +1,8 @@
+void insert(U *h)  
+{
+    U *q,*temp;
+    q=createpeople(h);
+    while(h=h->next,h){if(h->next==NULL)break;}temp=h;
+    q->next=temp->next;
+    temp->next=q;
+}
